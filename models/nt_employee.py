@@ -1,4 +1,4 @@
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError, UserError
 
 class NtEmployee(models.Model):
@@ -17,7 +17,7 @@ class NtEmployee(models.Model):
     @api.constrains('age')
     def check_age(self):
         if self.age > 40:
-            raise ValidationError("the capacity can't be bigger than 40")
+            raise ValidationError(_("the capacity can't be bigger than 40"))
 
 
 
