@@ -1,0 +1,71 @@
+<odoo>
+    <data>
+        <record id="class_tree_view" model="ir.ui.view">
+            <field name="name">Class Tree View</field>
+            <field name="model">nt.class</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="capacity"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="class_form_view" model="ir.ui.view">
+            <field name="name">Class Form View</field>
+            <field name="model">nt.class</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group string="basic info">
+                            <field name="name" required="1"/>
+                            <field name="description"/>
+                            <field name="capacity" required="1"/>
+                            <field name="student_ids"/>
+                            <field name="teacher_ids">
+                                <tree>
+                                    <field name="name"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+<!--        <record id="class_kanban_view" model="ir.ui.view">-->
+<!--            <field name="name">Class Kanban View</field>-->
+<!--            <field name="model">nt.class</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <kanban class="o_nt_class_kanban">-->
+<!--                    <field name="id"/>-->
+<!--                    <field name="name"/>-->
+<!--                    <field name="capacity"/>-->
+<!--                    <templates>-->
+<!--                        <t t-name="kanban-box">-->
+<!--                            <div t-attf-class="oe_kanban_global_click">-->
+<!--                                <div class="oe_kanban_details">-->
+<!--                                    <strong class="o_kanban_record_title">-->
+<!--                                        <field name="name"/>-->
+<!--                                    </strong>-->
+<!--                                    <div t-if="record.capacity.value">-->
+<!--                                        <t t-esc="record.capacity.value"/>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </t>-->
+<!--                    </templates>-->
+<!--                </kanban>-->
+<!--            </field>-->
+<!--        </record>-->
+
+
+        <record id="class_action" model="ir.actions.act_window">
+            <field name="name">Class</field>
+            <field name="res_model">nt.class</field>
+             <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="class_id" name="class" parent="school_management_id" action="class_action"/>
+    </data>
+</odoo>

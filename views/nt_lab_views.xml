@@ -1,0 +1,46 @@
+<odoo>
+    <data>
+        <record id="lab_tree_view" model="ir.ui.view">
+            <field name="name">Lab Tree View</field>
+            <field name="model">nt.lab</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="age"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="Lab_form_view" model="ir.ui.view">
+            <field name="name">Lab Form View</field>
+            <field name="model">nt.lab</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <header>
+                            <field name="state" widget="statusbar" options="{'clickable' : '1'}"/>
+                        </header>
+                        <!--                    <button name="my_create" type="object" string="Create two Record"/>-->
+                        <!--                    <button name="print_output" type="object" string="Print OutPut"/>-->
+
+                        <group string="basic info">
+                            <field name="name"/>
+                            <field name="age"/>
+                            <field name="descriptions"/>
+                            <field name="date"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="lab_action" model="ir.actions.act_window">
+            <field name="name">Lab</field>
+            <field name="res_model">nt.lab</field>
+             <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="lab_id" name="Lab" parent="school_management_id" action="lab_action"/>
+    </data>
+</odoo>

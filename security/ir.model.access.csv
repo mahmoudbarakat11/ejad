@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+normal_teacher_access,normal_teacher_access,model_nt_teacher,school_management_security_id,1,1,1,1
+normal_student_access,normal_student_access,model_nt_student,school_management_security_id,1,1,1,1
+normal_school_access,normal_school_access,model_nt_school,school_management_security_id,1,0,0,0
+normal_class_access,normal_class_access,model_nt_class,school_management_security_id,1,1,1,1

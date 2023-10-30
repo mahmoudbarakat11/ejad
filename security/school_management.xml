@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <record id="school_management_security_id" model="res.groups">
+            <field name="name">School Normal User Group</field>
+        </record>
+    </data>
+</odoo>

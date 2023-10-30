@@ -1,0 +1,367 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* school_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-30 10:26+0000\n"
+"PO-Revision-Date: 2023-10-30 10:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_student__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__address
+msgid "Address"
+msgstr "العنوان"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__age
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__age
+#: model:ir.model.fields,field_description:school_management.field_nt_student__age
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__age
+msgid "Age"
+msgstr "العمر"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_lab__state__canceled
+msgid "Canceled"
+msgstr "الغاء"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__capacity
+#: model:ir.model.fields,field_description:school_management.field_nt_student__capacity
+msgid "Capacity"
+msgstr "السعة"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.class_action
+#: model:ir.model.fields,field_description:school_management.field_nt_school__class_id
+#: model:ir.model.fields,field_description:school_management.field_nt_student__class_id
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__class_ids
+msgid "Class"
+msgstr "الفصل"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_school__my_text
+msgid "Created By"
+msgstr "انشاء بواسطة"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__create_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__create_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__create_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_school__create_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_student__create_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__create_uid
+msgid "Created by"
+msgstr "انشاء بواسطة"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__create_date
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__create_date
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__create_date
+#: model:ir.model.fields,field_description:school_management.field_nt_school__create_date
+#: model:ir.model.fields,field_description:school_management.field_nt_student__create_date
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__date
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__date
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_lab__state__deraft
+msgid "Deraft"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__description
+msgid "Description"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__descriptions
+msgid "Descriptions"
+msgstr "الوصف"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__display_name
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__display_name
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__display_name
+#: model:ir.model.fields,field_description:school_management.field_nt_school__display_name
+#: model:ir.model.fields,field_description:school_management.field_nt_student__display_name
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__display_name
+msgid "Display Name"
+msgstr "عرض الاسم"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.employee_action
+msgid "Employee"
+msgstr "الموظفين"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__gender
+#: model:ir.model.fields,field_description:school_management.field_nt_student__gender
+msgid "Gender"
+msgstr "النوع"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_school__grade
+msgid "Grade"
+msgstr "الدرجة"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__id
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__id
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__id
+#: model:ir.model.fields,field_description:school_management.field_nt_school__id
+#: model:ir.model.fields,field_description:school_management.field_nt_student__id
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__id
+msgid "ID"
+msgstr "الرقم التعريفي"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.lab_action
+#: model:ir.ui.menu,name:school_management.lab_id
+msgid "Lab"
+msgstr "المعامل"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class____last_update
+#: model:ir.model.fields,field_description:school_management.field_nt_employee____last_update
+#: model:ir.model.fields,field_description:school_management.field_nt_lab____last_update
+#: model:ir.model.fields,field_description:school_management.field_nt_school____last_update
+#: model:ir.model.fields,field_description:school_management.field_nt_student____last_update
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__write_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__write_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__write_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_school__write_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_student__write_uid
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__write_date
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__write_date
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__write_date
+#: model:ir.model.fields,field_description:school_management.field_nt_school__write_date
+#: model:ir.model.fields,field_description:school_management.field_nt_student__write_date
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_class__name
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__name
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__name
+#: model:ir.model.fields,field_description:school_management.field_nt_school__name
+#: model:ir.model.fields,field_description:school_management.field_nt_student__name
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: school_management
+#: model_terms:ir.ui.view,arch_db:school_management.school_form_view
+#: model_terms:ir.ui.view,arch_db:school_management.student_form_view
+msgid "Print Rec"
+msgstr "طباعة ريكورد"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_lab__state__ready
+msgid "Ready"
+msgstr "مستعد"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_employee__salary
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__salary
+msgid "Salary"
+msgstr "المرتب"
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.school_action
+#: model:ir.model.fields,field_description:school_management.field_nt_class__school_ids
+msgid "School"
+msgstr "المدرسة"
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.school_management_id
+msgid "School Management"
+msgstr "اداراة المدرسة"
+
+#. module: school_management
+#: model:res.groups,name:school_management.school_management_security_id
+msgid "School Normal User Group"
+msgstr "جروب المستخدمين العادين"
+
+#. module: school_management
+#: model_terms:ir.ui.view,arch_db:school_management.student_form_view
+msgid "Select State"
+msgstr "اختار الحالة"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__special_class_ids
+msgid "Special Class"
+msgstr "فصول خاصة"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_lab__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.student_action
+#: model:ir.model.fields,field_description:school_management.field_nt_class__student_ids
+msgid "Student"
+msgstr "الطالب"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_teacher__tax
+#: model:ir.model.fields,field_description:school_management.field_sale_order__tax
+msgid "Tax"
+msgstr "الزيادة"
+
+#. module: school_management
+#: model:ir.actions.act_window,name:school_management.teacher_action
+#: model:ir.model.fields,field_description:school_management.field_nt_class__teacher_ids
+msgid "Teacher"
+msgstr "المدرس"
+
+#. module: school_management
+#: model_terms:ir.ui.view,arch_db:school_management.Lab_form_view
+#: model_terms:ir.ui.view,arch_db:school_management.class_form_view
+msgid "basic info"
+msgstr "المعلومات الرئيسة"
+
+#. module: school_management
+#: model_terms:ir.ui.view,arch_db:school_management.student_form_view
+msgid "basic_info"
+msgstr "المعلومات الرئيسة"
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.class_id
+msgid "class"
+msgstr "الاسم"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__state__dip
+msgid "diploma"
+msgstr "دبلومة"
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.employee_id
+msgid "employee"
+msgstr "الموظف"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__gender__f
+msgid "female"
+msgstr "انثي"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_employee__gender__femle
+msgid "femle"
+msgstr "انثي"
+
+#. module: school_management
+#: model:ir.model.fields,field_description:school_management.field_nt_student__state
+msgid "grade"
+msgstr "الدرجة"
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_employee__gender__male
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__gender__m
+msgid "male"
+msgstr "ذكر"
+
+#. module: school_management
+#: model:ir.model.constraint,message:school_management.constraint_nt_school_unique_name
+msgid "name already exists"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_class
+msgid "nt.class"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_employee
+msgid "nt.employee"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_lab
+msgid "nt.lab"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_school
+msgid "nt.school"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_student
+msgid "nt.student"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model,name:school_management.model_nt_teacher
+msgid "nt.teacher"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_school__grade__prim
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__state__prim
+msgid "primary"
+msgstr ""
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.school_id
+msgid "school"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_school__grade__sec
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__state__sec
+msgid "secondary"
+msgstr ""
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.student_id
+msgid "student"
+msgstr ""
+
+#. module: school_management
+#: model:ir.ui.menu,name:school_management.teacher_id
+msgid "teacher"
+msgstr ""
+
+#. module: school_management
+#: model:ir.model.fields.selection,name:school_management.selection__nt_student__state__uni
+msgid "university"
+msgstr ""
