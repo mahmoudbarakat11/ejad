@@ -23,6 +23,22 @@ if uid:
 
     # read methods
     partner_rec = models.execute_kw(db, uid, password, 'res.partner', 'read', [partners], {'fields': ['id', 'name']})
-    print(">>>>>>", partner_rec)
+
+    # search read
+    partner_rec2 = models.execute_kw(db, uid, password, 'res.partner', 'search_read', [[['is_company', '=', True]]], {'fields': ['id', 'name']})
+    print(">>>>>>",partner_rec2)
+
+
+    #create record
+    vals = {
+        "name": "new external api",
+        "email": "newexternalapi@gmail"
+    }
+    created_id = models.execute_kw(db, uid, password, 'res.partner', 'create', [vals])
+    print("created record >>", created_id)
+
+
+
+
 else:
     print("authentication failed")
